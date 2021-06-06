@@ -14,3 +14,5 @@ Whereami is a simple kubernetes-oriented Go app "useful for describing the locat
 This version does not mimic the [whereami python version](https://github.com/GoogleCloudPlatform/kubernetes-engine-samples/tree/master/whereami) completely. Missing are:
 
 * gRPC
+=======
+At `gcr.io/ghchinoy/whereami:latest`
