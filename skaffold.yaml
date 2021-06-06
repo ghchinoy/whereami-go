@@ -2,9 +2,9 @@ apiVersion: skaffold/v2beta7
 kind: Config
 build:
   googleCloudBuild:
-    projectId: ghc-hello-anthos-100
+    projectId: testingproject-19c4c
   artifacts:
-  - image: gcr.io/ghc-hello-anthos-100/whereami
+  - image: gcr.io/testingproject-19c4c/whereami
 deploy:
   kubectl:
     manifests:

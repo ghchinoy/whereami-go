@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: whereami
-        image: gcr.io/ghc-hello-anthos-100/whereami
+        image: gcr.io/testingproject-19c4c/whereami
         ports:
           - name: http
             containerPort: 8080
